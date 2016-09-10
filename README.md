@@ -2,7 +2,7 @@
 
 This is the repository for the course project of 'Getting And Cleaning Data' on Coursera. The goal for this project is to prepare tidy data that can be used for later analysis.
 
-There are three components in this repository:
+There are four components in this repository:
 
    * README.md :       Describes general purpose and the components included in this repository
    * CodeBook.md :     Describes the variables, the data, and any transformations or work that cleans up the data
