@@ -4,8 +4,8 @@ This is the repository for the course project of 'Getting And Cleaning Data' on 
 
 There are three components in this repository:
 
-   * README.md :       Describes general purpose and the scripts of this repository
-   * CodeBook.md :     Describes the variables, the data, and any transformations or work that you performed to clean up the data
+   * README.md :       Describes general purpose and the components included in this repository
+   * CodeBook.md :     Describes the variables, the data, and any transformations or work that cleans up the data
    * tidy_Dataset.txt: The clean dataset after transformations performed from running 'run_analysis.R' script
    * run_analysis.R :  Performs following prescribed transformations:
    
