@@ -7,7 +7,8 @@ There are four components in this repository:
    * README.md :       Describes general purpose and the components included in this repository
    * CodeBook.md :     Describes the variables, the data, and any transformations or work that cleans up the data
    * tidy_Dataset.txt: The clean dataset after transformations performed from running 'run_analysis.R' script
-   * run_analysis.R :  Performs following prescribed transformations:
+   * run_analysis.R :  Performs following prescribed transformations
+
       1. Checks working direcotry for required datasets. Download them if they do not already exist
       2. Load the activity and feature info
       3. Loads both the training and test datasets, keeping only those columns which
