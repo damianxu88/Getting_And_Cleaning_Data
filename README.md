@@ -11,7 +11,7 @@ There are four components in this repository:
    
 Following transformations are performed in `run_analysis.R` script:
 
-  1. Check working direcotry for required datasets. Download them if they do not already exist
+  1. Check working directory forthe  required datasets. Download them if they do not already exist
   2. Load the `activity.txt` and `feature.txt` for activity labels and feature info
   3. Extract only those measurements that reflect the mean or the standard deviation
   4. Load and compose the complete training and test datasets
