@@ -2,7 +2,7 @@
 This code book outlines the data structure in the cleansed `tidy_Dataset.txt` file
 
 * Generated on `2016-09-10`
-* Dimension of `181 rows` (30 subjects x 6 activities + 1 header) / `68 columns'
+* Dimension of `181 rows` (30 subjects x 6 activities + 1 header) / `68 columns`
 
 ## Transformations Performed
 `run_analysis.R` performs following transformation steps sequentially:
