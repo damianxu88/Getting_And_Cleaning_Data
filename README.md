@@ -12,7 +12,7 @@ There are four components in this repository:
 Following transformations are performed in `run_analysis.R` script:
 
   1. Checks working direcotry for required datasets. Download them if they do not already exist
-  2. Load the activity and feature info
+  2. Load the `activity.txt` and `feature.txt`
   3. Loads both the training and test datasets, keeping only those columns which
      reflect a mean or standard deviation
   4. Loads the activity and subject data for each dataset, and merges those
