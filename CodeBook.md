@@ -5,7 +5,7 @@ This code book outlines the data structure in the cleansed `tidy_Dataset.txt` fi
 * Dimension of `181 rows` (30 subjects x 6 activities + 1 header) / `68 columns'
 
 ## Transformations Performed
-`run_analysis.R` performs following transformation steps:
+`run_analysis.R` performs following transformation steps sequentially:
 
 1. Check working directory for required datasets. Download them if they do not already exist
 2. Load the `activity.txt` and `feature.txt` for activity labels and feature info
