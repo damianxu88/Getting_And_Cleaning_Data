@@ -82,7 +82,7 @@ completeDataset <- cbind(finalY, finalSubject, finalX)
 colnames(completeDataset) <- c("activity", "subject", featuresTargetNames)
 
 ###########################################################################
-## 7.Generates a tidy dataset that consists of the mean value            ##
+## 6.Generates a tidy dataset that consists of the mean value            ##
 ##   per variable for each subject and activity                          ##  
 ###########################################################################
 
