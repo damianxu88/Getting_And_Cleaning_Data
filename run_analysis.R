@@ -4,7 +4,7 @@
 ###########################################################################
 
 # Initiate and clean up
-library(plyr)
+library(dplyr)
 rm(list = ls())
 
 ###########################################################################
@@ -87,9 +87,9 @@ colnames(completeDataset) <- c("activity", "subject", featuresTargetNames)
 ###########################################################################
 
 # Calculate all columns from finalX
-finalDataset <- ddply(.data = completeDataset, 
-                      .variables = c("subject", "activity"),
-                      function(x) colMeans(x[, 3:68]))
+finalDataset <- completeDataset %>% 
+                  group_by(subject, activity) %>% 
+                    summarise_each(funs(mean))
 
 # Write to a text file with final results
 write.table(finalDataset, "tidy_Dataset.txt", row.names = FALSE, quote = FALSE)
