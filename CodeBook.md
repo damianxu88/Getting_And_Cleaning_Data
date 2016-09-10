@@ -11,7 +11,7 @@ This code book outlines the data structure in the cleansed `tidy_Dataset.txt` fi
 5. Add appropriate labels and merge 'X','Y' and 'subject' datasets 
 6. Generates a tidy dataset that consists of the mean value per variable for each subject and activity
 
-## Key Columns
+## Subject & Activity Columns
 Following columns are the subject and activity data:
 
 * `subject` : The numeric identifier of the test subject 
@@ -24,8 +24,8 @@ Following columns are the subject and activity data:
   * ID 5 - `STANDING` : subject was standing during the test
   * ID 6 - `LAYING` : subject was laying down during the test
 
-## Measurement columns
-Following columns are the measurements taken for either the mean or standard deviations:
+## Measurement Columns
+Following columns are the mean or standard deviation values for the corresponding measuremenst:
 
 * `tBodyAcc-mean()-X`           
 * `tBodyAcc-mean()-Y`          
