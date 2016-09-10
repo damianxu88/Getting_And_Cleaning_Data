@@ -25,7 +25,7 @@ Following columns are the subject and activity data:
   * ID 6 - `LAYING` : subject was laying down during the test
 
 ## Measurement Columns
-Following columns are the mean or standard deviation values for the corresponding measuremenst:
+Following columns are the mean or standard deviation values for the corresponding measuremenst:
 
 * `tBodyAcc-mean()-X`           
 * `tBodyAcc-mean()-Y`          
