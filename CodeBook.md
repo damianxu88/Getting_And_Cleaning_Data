@@ -1,5 +1,8 @@
 # CodeBook
-This code book outlines the data structure in the cleansed `tidy_Dataset.txt` file which was generated on `2016-09-10`.
+This code book outlines the data structure in the cleansed `tidy_Dataset.txt` file
+
+* Generated on `2016-09-10`
+* Dimension of 30 subjects x 6 activities = 180 rows + 1 header
 
 ## Transformations Performed
 `run_analysis.R` performs following transformation steps:
