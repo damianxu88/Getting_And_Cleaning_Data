@@ -14,6 +14,6 @@ Following transformations are performed in `run_analysis.R` script:
   1. Check working directory for required datasets. Download them if they do not already exist
   2. Load the `activity.txt` and `feature.txt` for activity labels and feature info
   3. Extract only those measurements that reflect the mean or the standard deviation
-  4. Load and compose the complete 'X','Y' and 'subject' datasets 
-  5. Add appropriate labels and merge 'X','Y' and 'subject' datasets 
+  4. Load and compose the complete `X`,`Y` and `subject` datasets 
+  5. Add appropriate labels and merge `X`,`Y` and `subject` datasets 
   6. Generates a tidy dataset that consists of the mean value per variable for each subject and activity
