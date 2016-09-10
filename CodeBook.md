@@ -4,7 +4,7 @@ This code book outlines the data structure in the cleansed `tidy_Dataset.txt` fi
 ## Transformations Performed
 `run_analysis.R` performs following transformation steps:
 
-1. Check working direcotry for required datasets. Download them if they do not already exist
+1. Check working directory for required datasets. Download them if they do not already exist
 2. Load the `activity.txt` and `feature.txt` for activity labels and feature info
 3. Extract only those measurements that reflect the mean or the standard deviation
 4. Load and compose the complete 'X','Y' and 'subject' datasets 
