@@ -23,7 +23,6 @@ if (!file.exists(fileName)) { download.file(URL, fileName) }
 # Unzip the file if the folder does not exist
 if (!file.exists(unzipFolder)) { unzip(filename) }
 
-
 ###########################################################################
 ## 2. Load the activity labels and feature info                          ##
 ###########################################################################
@@ -40,7 +39,6 @@ activityLabels[,2] <- as.character(activityLabels[,2])
 features[,1] <- as.numeric(features[,1])
 features[,2] <- as.character(features[,2])
 
-
 ###########################################################################
 ## 3. Extract only measurements for the mean or the standard deviation   ##
 ###########################################################################
@@ -50,7 +48,6 @@ featuresTargetIDs    <- grep("mean\\(\\)|std\\(\\)", features[,2])
 
 # Retrieve the names for the targets measurements
 featuresTargetNames  <- features[featuresTargetIDs,2]
-
 
 ###########################################################################
 ## 4. Load and compose the complete 'X','Y' and 'subject' datasets       ##
@@ -83,7 +80,6 @@ completeDataset <- cbind(finalY, finalSubject, finalX)
 
 # Add appropriate column names
 colnames(completeDataset) <- c("activity", "subject", featuresTargetNames)
-
 
 ###########################################################################
 ## 7.Generates a tidy dataset that consists of the mean value            ##
